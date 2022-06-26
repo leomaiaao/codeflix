@@ -57,6 +57,7 @@ export class HomeComponent implements OnInit {
   }
     goToSearch(){
     this.router.navigate(['public/pesquisa']);
+      console.log("foi");
   }
 
 }
