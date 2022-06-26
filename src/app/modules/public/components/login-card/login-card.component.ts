@@ -88,6 +88,7 @@ export class LoginCardComponent implements OnInit {
   navigatePrivate(){
     this.router.navigate(['private/home']);
     this.windowScroll();
+    console.log("kkkkkk");
   }
 
   navigateHome(){
