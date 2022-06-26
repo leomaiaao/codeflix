@@ -14,6 +14,9 @@ export class MoviesService {
   getByGenre(genre: number){
     return this.http.get(`${environment.API_MOVIES_DISCOVER}?api_key=${environment.API_KEY}&language=pt-br&with_genres=${genre}&page=1`);
   }
+   getByTitle(title: string){
+    return this.http.get(`https://api.themoviedb.org/3/search/movie?language=pt-BR&api_key=f4da42263cee6bb7b4d913ab8fbae012&query=${title}&page=1` );
+  }
 
   getPopular(){
     return this.http.get(`${environment.API_MOVIES}/popular?api_key=${environment.API_KEY}&language=pt-br&page=1`);
