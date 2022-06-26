@@ -55,5 +55,8 @@ export class HomeComponent implements OnInit {
   returnLogin(){
     this.router.navigate(['public/login']);
   }
+    goToSearch(){
+    this.router.navigate(['public/pesquisa']);
+  }
 
 }
