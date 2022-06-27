@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Json Server (Fake API)
 
 Docs: `https://github.com/json-server`
-Run `json-server --watch db.json` to init.
+Run `json-server --watch jsonserve.json` to init.
 Endpoint: `http://localhost:3000/Users`
 
 ## IvyCarousel
